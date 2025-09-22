@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Cine Iplacex</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>Cine Iplacex</h1>
+    <nav>
+      <a href="#peliculas">Películas</a>
+      <a href="#actores">Actores</a>
+    </nav>
+  </header>
+
+  <main>
+    <section id="peliculas">
+      <h2>Películas</h2>
+      <div id="listaPeliculas" class="grid"></div>
+    </section>
+
+    <section id="actores">
+      <h2>Actores</h2>
+      <label for="filtroPelicula">Filtrar por película:</label>
+      <select id="filtroPelicula">
+        <option value="">-- Todas --</option>
+      </select>
+      <div id="listaActores" class="grid"></div>
+    </section>
+  </main>
+
+  <footer>
+    <p>API REST Cine Iplacex © 2025</p>
+  </footer>
+
+  <script src="app.js"></script>
+</body>
+</html>
